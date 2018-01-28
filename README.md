@@ -36,6 +36,9 @@ JS
 ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById('root'));
 ```
 
+## Start Coding!
+- https://reactjs.org/docs/add-react-to-a-new-app.html
+
 #### Useful links
 - https://codepen.io/
 - http://babeljs.io/
