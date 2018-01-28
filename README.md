@@ -1,8 +1,16 @@
 # React-Redux-ES6-Basics
 
 ## Installing NodeJS & Npm
-- NodeJS - https://nodejs.org/ (Download & Install it, Long Term Support (LTS) recommended)
+NodeJS - https://nodejs.org/ (Download & Install it, Long Term Support (LTS) recommended)
 
+Check if NodeJS was correctly installed, opening a terminal and typing:
+```javascript
+node -v
+```
+## Choosing and Installing an IDE
+- Sublime - https://www.sublimetext.com/3
+- Atom - https://atom.io/
+- Visual Studio Code - https://code.visualstudio.com/
 
 ## References
 - https://www.udemy.com/react-js-redux-es6-completo-de-0-a-experto-espanol/
