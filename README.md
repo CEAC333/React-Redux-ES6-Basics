@@ -37,7 +37,17 @@ ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById('root'));
 ```
 
 ## Start Coding!
-- https://reactjs.org/docs/add-react-to-a-new-app.html
+https://reactjs.org/docs/add-react-to-a-new-app.html
+- VS Studio Code > View > Integrated Terminal 
+```javascript
+npm install -g create-react-app
+create-react-app my-app
+
+cd my-app
+npm start
+```
+
+
 
 #### Useful links
 - https://codepen.io/
