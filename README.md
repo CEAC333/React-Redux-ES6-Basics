@@ -63,6 +63,46 @@ App Layout
 ForecastItem Component
 ![ForecastItem Component](https://lh3.googleusercontent.com/KyQiwxsneZvZ1gU9eCRbZALYLEBads45i_wyAeUBdYSPNhzyu9zJ7LS8UMlp_qd_Q22RH-GlBR9jdqLIaw6J9xSzs1yxwde6K-9zUhz93KmwofJn4yJg1bFcU_rbnz6-VlV6e7FnZYRr95a-KVl9m9BIP5gMq0Wj_0mKh1LD7N4K4pdYhVgoR8vr6IZRaxy2kPA_PW6V0c1hLkVILNQNgya3Bn3HgqKXQmYoEACvmRf-5cQCdtr4WSR8eCv38Decs9e0CC1jT5uC5ter4lxhIXu5STUYfvsjapWfmO61r37qt5Iz4RMEEl1xdCyv5ERG_NtgEqR3mRgKpJzGSjE0IeRdo0Zb383IMCHGhcx2w-B7PwioG_di_-q-UTn-PxMIopkoC-zCEv1s0u7eLYVL0npRerCvHOhIEckrgR6OrpVgHux1Y4CAtCWgaQldSMd2h-3B3YmLGudjACOQIBCo0soC4HUuuJvw2cdBgAuwM7hwFsTmy6dXQdv0XY-a0pIGtwSNS_YsXh-k5QREAwYBB8921KiRBJKOlZlBY4oNLT2T2rQ0-atvPZFnuOkcg9BY=w2462-h1746)
 
+### 1.1.- WeatherApp - Functional Component
+
+WeatherLocation.js
+```javascript
+import React from 'react';
+
+const WeatherLocation = () => 
+(
+    <div>"Weather Location"</div>
+); 
+
+export default WeatherLocation;
+```
+
+App.js
+```javascript
+import React, { Component } from 'react';
+import WeatherLocation from './components/WeatherLocation';
+import './App.css';
+
+class App extends Component 
+{
+  render() 
+  {
+    return 
+    (
+      <div className="App">
+        <WeatherLocation></WeatherLocation>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+```
+
+
+export default WeatherLocation;
+
 #### Useful links
 - https://codepen.io/
 - http://babeljs.io/
