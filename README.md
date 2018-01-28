@@ -69,8 +69,7 @@ WeatherLocation.js
 ```javascript
 import React from 'react';
 
-const WeatherLocation = () => 
-(
+const WeatherLocation = () => (
     <div>"Weather Location"</div>
 ); 
 
@@ -83,12 +82,9 @@ import React, { Component } from 'react';
 import WeatherLocation from './components/WeatherLocation';
 import './App.css';
 
-class App extends Component 
-{
-  render() 
-  {
-    return 
-    (
+class App extends Component {
+  render() {
+    return (
       <div className="App">
         <WeatherLocation></WeatherLocation>
       </div>
@@ -97,7 +93,6 @@ class App extends Component
 }
 
 export default App;
-
 ```
 
 
