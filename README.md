@@ -242,27 +242,55 @@ const WeatherLocation = () => (
 export default WeatherLocation;
 ```
 
-App.js
+</p>
+</details>
+
+### 1.3.- WeatherApp - Components WeatherExtraInfo & WeatherTemperature
+
+<details><summary>Show 1.3.- WeatherApp - Components WeatherExtraInfo & WeatherTemperature</summary>
+<p>
+  
+/components/WeatherExtraInfo.js
 ```javascript
-import React, { Component } from 'react';
-import WeatherLocation from './components/WeatherLocation';
-import './App.css';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <WeatherLocation></WeatherLocation>
-      </div>
-    );
-  }
-}
+const WeatherExtraInfo = () => (
+<div>Extra Info</div>
+);
 
-export default App;
+export default WeatherExtraInfo;
+```
+
+/components/WeatherTemperature.js
+```javascript
+import React from 'react';
+
+const WeatherTemperature = () => (
+<div><span>12 ºC</span></div>
+);
+
+export default WeatherTemperature;
+```
+
+/components/WeatherData.js
+```javascript
+import React                from 'react';
+import WeatherTemperature   from './WeatherTemperature'
+import WeatherExtraInfo     from './WeatherExtraInfo'
+
+const WeatherData = () => (
+<div>
+    <WeatherTemperature/>
+    <WeatherExtraInfo/>
+</div>
+)
+
+export default WeatherData;
 ```
 
 </p>
 </details>
+
 
 </p>
 </details>
