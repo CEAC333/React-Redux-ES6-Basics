@@ -2,6 +2,9 @@
 
 ## Installation, Setup & Intro
 
+<details><summary>Show Sections - Installation, Setup & Intro</summary>
+<p>
+
 ### NodeJS & Npm
 NodeJS - https://nodejs.org/ (Download & Install it, Long Term Support (LTS) recommended)
 
@@ -35,9 +38,18 @@ JS
 ```javascript
 ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById('root'));
 ```
+#### Useful links
+- https://codepen.io/
+- http://babeljs.io/
+- https://reactjs.org/docs/introducing-jsx.html
+</p>
+</details>
 
 ## Start Coding!
 
+<details><summary>Show Sections - Start Coding!</summary>
+<p>
+  
 ### First React App
 https://reactjs.org/docs/add-react-to-a-new-app.html
 - VS Studio Code > View > Integrated Terminal 
@@ -125,11 +137,8 @@ const greeting = (name) => ("Hello " + name + "! (with arrow function)")
 
 console.log(greeting("Joe"))
 ```
-
-#### Useful links
-- https://codepen.io/
-- http://babeljs.io/
-- https://reactjs.org/docs/introducing-jsx.html
+</p>
+</details>
 
 ## References
 - https://www.udemy.com/react-js-redux-es6-completo-de-0-a-experto-espanol/
