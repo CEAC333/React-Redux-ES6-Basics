@@ -6,22 +6,46 @@
 <p>
 
 ### NodeJS & Npm
+
+<details><summary>Show NodeJS & Npm</summary>
+<p>
+  
 NodeJS - https://nodejs.org/ (Download & Install it, Long Term Support (LTS) recommended)
 
 Check if NodeJS was correctly installed, opening a terminal and typing:
 ```javascript
 node -v
 ```
+</p>
+</details>
+
 ### Choosing an IDE
+
+<details><summary>Show Choosing an IDE</summary>
+<p>
+  
 - Sublime - https://www.sublimetext.com/3
 - Atom - https://atom.io/
 - Visual Studio Code - https://code.visualstudio.com/
 
+</p>
+</details>
+
 ### React Docs
+
+<details><summary>Show React Docs</summary>
+<p>
+  
 - https://reactjs.org/
 - https://github.com/facebook/react
 
+</p>
+</details>
+
 ### Babel y ES6 in CodePen 
+
+<details><summary>Show Babel y ES6 in CodePen</summary>
+<p>
 
 #### First Steps
 - Go to https://codepen.io/
@@ -42,6 +66,10 @@ ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById('root'));
 - https://codepen.io/
 - http://babeljs.io/
 - https://reactjs.org/docs/introducing-jsx.html
+
+</p>
+</details>
+
 </p>
 </details>
 
@@ -51,6 +79,10 @@ ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById('root'));
 <p>
   
 ### First React App
+
+<details><summary>Show First React App</summary>
+<p>
+
 https://reactjs.org/docs/add-react-to-a-new-app.html
 - VS Studio Code > View > Integrated Terminal 
 ```javascript
@@ -61,7 +93,14 @@ cd my-app
 npm start
 ```
 
+</p>
+</details>
+
 ### Wireframing
+
+<details><summary>Show Wireframing</summary>
+<p>
+  
 - 30 Best Free Wireframing Tools 2018 - https://www.doublemesh.com/free-wireframing-tools/
 
 #### Sample in Pencil:
@@ -75,7 +114,13 @@ App Layout
 ForecastItem Component
 ![ForecastItem Component](https://lh3.googleusercontent.com/KyQiwxsneZvZ1gU9eCRbZALYLEBads45i_wyAeUBdYSPNhzyu9zJ7LS8UMlp_qd_Q22RH-GlBR9jdqLIaw6J9xSzs1yxwde6K-9zUhz93KmwofJn4yJg1bFcU_rbnz6-VlV6e7FnZYRr95a-KVl9m9BIP5gMq0Wj_0mKh1LD7N4K4pdYhVgoR8vr6IZRaxy2kPA_PW6V0c1hLkVILNQNgya3Bn3HgqKXQmYoEACvmRf-5cQCdtr4WSR8eCv38Decs9e0CC1jT5uC5ter4lxhIXu5STUYfvsjapWfmO61r37qt5Iz4RMEEl1xdCyv5ERG_NtgEqR3mRgKpJzGSjE0IeRdo0Zb383IMCHGhcx2w-B7PwioG_di_-q-UTn-PxMIopkoC-zCEv1s0u7eLYVL0npRerCvHOhIEckrgR6OrpVgHux1Y4CAtCWgaQldSMd2h-3B3YmLGudjACOQIBCo0soC4HUuuJvw2cdBgAuwM7hwFsTmy6dXQdv0XY-a0pIGtwSNS_YsXh-k5QREAwYBB8921KiRBJKOlZlBY4oNLT2T2rQ0-atvPZFnuOkcg9BY=w2462-h1746)
 
+</p>
+</details>
+
 ### 1.1.- WeatherApp - Functional Component
+
+<details><summary>Show 1.1.- WeatherApp - Functional Component</summary>
+<p>
 
 WeatherLocation.js
 ```javascript
@@ -106,10 +151,25 @@ class App extends Component {
 
 export default App;
 ```
+
+</p>
+</details>
+
 ### Plugins & Extensions
+
+<details><summary>Show Plugins & Extensions</summary>
+<p>
+  
 - VS Code > Extensions - "vscode-icons", "Reactjs code snippets" - Install
 
+</p>
+</details>
+
 ### ES6 Arrow Functions
+
+<details><summary>Show ES6 Arrow Functions</summary>
+<p>
+  
 - Go to https://codepen.io/
 - Create > New Pen > Settings > Javascript > Preprocessor - "Babel" > Quick-add - "React" > Quick-add - "React DOM"
 
@@ -137,6 +197,10 @@ const greeting = (name) => ("Hello " + name + "! (with arrow function)")
 
 console.log(greeting("Joe"))
 ```
+
+</p>
+</details>
+
 </p>
 </details>
 
