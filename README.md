@@ -470,13 +470,12 @@ console.log(text);
 </p>
 </details>
 
-### Library Installation & Setup
+### 1.7.- Library Installation & Setup
+
+<details><summary>Show 1.7.- Library Installation & Setup</summary>
+<p>
 
 - react-weathericons - https://www.npmjs.com/package/react-weathericons
-
-<details><summary>Show ES6: Template Strings</summary>
-<p>
- 
 
 VS Code - View - Integrated Terminal:
 ```javascript
