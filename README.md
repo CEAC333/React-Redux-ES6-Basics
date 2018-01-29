@@ -122,12 +122,75 @@ ForecastItem Component
 <details><summary>Show 1.1.- WeatherApp - Functional Component</summary>
 <p>
 
-WeatherLocation.js
+/components/WeatherLocation.js
 ```javascript
 import React from 'react';
 
 const WeatherLocation = () => (
     <div>"Weather Location"</div>
+); 
+
+export default WeatherLocation;
+```
+
+App.js
+```javascript
+import React, { Component } from 'react';
+import WeatherLocation from './components/WeatherLocation';
+import './App.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <WeatherLocation></WeatherLocation>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+</p>
+</details>
+
+### 1.2.- WeatherApp - Components & Imports
+
+<details><summary>Show 1.2.- WeatherApp - Components & Imports</summary>
+<p>
+  
+/components/Location.js
+```javascript
+import React from 'react';
+
+const Location = () => (
+    <div><h1>New York</h1></div>
+);
+
+export default Location;
+```
+
+/components/WeatherData.js
+```javascript
+import React from 'react';
+
+const WeatherData = () => (<div>WeatherData</div>)
+
+export default WeatherData;
+```
+
+/components/WeatherLocation.js
+```javascript
+import React from 'react';
+import Location from './Location';
+import WeatherData from './WeatherData';
+
+const WeatherLocation = () => (
+    <div>
+        <Location/>
+        <WeatherData/>
+    </div>
 ); 
 
 export default WeatherLocation;
