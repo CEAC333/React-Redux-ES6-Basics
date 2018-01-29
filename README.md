@@ -470,6 +470,74 @@ console.log(text);
 </p>
 </details>
 
+### Library Installation & Setup
+
+- react-weathericons - https://www.npmjs.com/package/react-weathericons
+
+<details><summary>Show ES6: Template Strings</summary>
+<p>
+ 
+
+VS Code - View - Integrated Terminal:
+```javascript
+npm install --save react-weathericons
+```
+
+- https://cdnjs.com/libraries/weather-icons
+
+VS Code > public > index.html (line 13)
+
+```javascript
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+```
+
+/components/WeatherData.js
+```javascript
+import React                from 'react';
+import WeatherTemperature   from './WeatherTemperature'
+import WeatherExtraInfo     from './WeatherExtraInfo'
+
+const WeatherData = () => (
+<div>
+    <WeatherTemperature temperature={20}/>
+    <WeatherExtraInfo humidity={80} wind={'10m/s'}/>
+</div>
+)
+
+export default WeatherData;
+```
+
+/components/WeatherTemperature.js
+```javascript
+import React from 'react';
+import WeatherIcons from 'react-weathericons';
+
+const getWeatherIcon = weatherState => {
+    switch (weatherState) {
+        case "cloud":
+            return (<WeatherIcons name="cloud" size="2x" />);
+            break;
+    
+        default:
+            return (<WeatherIcons name="day-sleet" size="2x" />);
+            break;
+    }
+};
+
+const WeatherTemperature = ({temperature, weatherState}) => (
+<div>
+    {getWeatherIcon(weatherState)}
+    
+    <span>{`${temperature} ºC`}</span>
+</div>
+);
+
+export default WeatherTemperature;
+```
+
+
+</p>
+</details>
 
 </p>
 </details>
