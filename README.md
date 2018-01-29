@@ -97,6 +97,35 @@ export default App;
 ### Plugins & Extensions
 - VS Code > Extensions - "vscode-icons", "Reactjs code snippets" - Install
 
+### ES6 Arrow Functions
+- Go to https://codepen.io/
+- Create > New Pen > Settings > Javascript > Preprocessor - "Babel" > Quick-add - "React" > Quick-add - "React DOM"
+
+JS
+```javascript
+function greeting(name){
+  return "Hello " + name;
+}
+
+console.log(greeting("Joe"))
+```
+
+JS - Arrow Function
+```javascript
+const greeting = (name) => {
+  return "Hello " + name + "! (with arrow function)";
+}
+
+console.log(greeting("Joe"))
+```
+
+JS - Arrow Function - 1 Line can be with () without "return"
+```javascript
+const greeting = (name) => ("Hello " + name + "! (with arrow function)")
+
+console.log(greeting("Joe"))
+```
+
 #### Useful links
 - https://codepen.io/
 - http://babeljs.io/
