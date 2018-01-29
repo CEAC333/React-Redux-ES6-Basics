@@ -365,13 +365,50 @@ const Location = ({city}) => ( // destructuring
 
 export default Location;
 ```
+
 #### Destructuring
 - Destructuring assignment - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 
 </p>
 </details>
 
+### ES6: Object Destructuring
 
+<details><summary>Show ES6: Object Destructuring</summary>
+<p>
+ 
+- Go to https://codepen.io/
+- Create > New Pen > Settings > Javascript > Preprocessor - "Babel" > Quick-add - "React" > Quick-add - "React DOM"
+
+JS - Object Destructuring
+```javascript
+const obj = {
+  prop1: "one",
+  prop2: "two",
+  prop3: 3
+};
+
+const { prop3: three, prop1, prop2} = obj; // object destructuring
+
+console.log(prop1);
+console.log(prop2);
+console.log(three);
+
+//console.log(obj);
+```
+
+JS - Array Destructuring
+```javascript
+const array = ["one", "two", "three"];
+
+const [one, , three] = array; // array destructuring
+
+console.log(one);
+console.log(three);
+```
+ 
+</p>
+</details>
 
 </p>
 </details>
