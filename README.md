@@ -163,9 +163,6 @@ console.log(greeting("Joe"))
 </p>
 </details>
 
-</p>
-</details>
-
 ### 1.1.- WeatherApp - Functional Component
 
 <details><summary>Show 1.1.- WeatherApp - Functional Component</summary>
@@ -263,6 +260,9 @@ class App extends Component {
 
 export default App;
 ```
+
+</p>
+</details>
 
 </p>
 </details>
