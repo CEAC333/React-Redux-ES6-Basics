@@ -330,6 +330,48 @@ Chrome > Inspect > Sources & Network
 </p>
 </details>
 
+### 1.5.- WeatherApp - Parameter & Object Destructuring
+
+<details><summary>Show 1.5.- WeatherApp - Parameter & Object Destructuring</summary>
+<p>
+  
+/components/WeatherLocation.js
+```javascript
+import React        from 'react';
+import Location     from './Location';
+import WeatherData  from './WeatherData';
+
+const WeatherLocation = () => (
+    <div>
+        <Location city={'Toronto'}/>
+        <WeatherData/>
+    </div>
+); 
+
+export default WeatherLocation;
+```
+
+/components/Location.js
+```javascript
+import React from 'react';
+
+const Location = ({city}) => ( // destructuring
+        <div>
+            <h1>
+                {city}
+            </h1>
+        </div>
+);
+
+export default Location;
+```
+
+- Destructuring assignment - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+</p>
+</details>
+
+
 
 </p>
 </details>
