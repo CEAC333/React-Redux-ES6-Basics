@@ -291,6 +291,45 @@ export default WeatherData;
 </p>
 </details>
 
+### 1.4.- WeatherApp - Parameter & Chrome Debugging Tools
+
+<details><summary>Show 1.3.- WeatherApp - Components WeatherExtraInfo & WeatherTemperature</summary>
+<p>
+  
+/components/WeatherLocation.js
+```javascript
+import React        from 'react';
+import Location     from './Location';
+import WeatherData  from './WeatherData';
+
+const WeatherLocation = () => (
+    <div>
+        <Location city={'New York!'}/>
+        <WeatherData/>
+    </div>
+); 
+
+export default WeatherLocation;
+```
+
+/components/Location.js
+```javascript
+import React from 'react';
+
+const Location = (props) => {
+    console.log(props);
+    debugger;
+    return <div><h1>New York.</h1></div>
+};
+
+export default Location;
+```
+
+Chrome > Inspect > Sources & Network
+
+</p>
+</details>
+
 
 </p>
 </details>
