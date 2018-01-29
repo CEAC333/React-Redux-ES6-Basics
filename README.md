@@ -293,7 +293,7 @@ export default WeatherData;
 
 ### 1.4.- WeatherApp - Parameter & Chrome Debugging Tools
 
-<details><summary>Show 1.3.- WeatherApp - Components WeatherExtraInfo & WeatherTemperature</summary>
+<details><summary>Show 1.4.- WeatherApp - Parameter & Chrome Debugging Tools</summary>
 <p>
   
 /components/WeatherLocation.js
