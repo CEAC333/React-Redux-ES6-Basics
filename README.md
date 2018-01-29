@@ -449,6 +449,28 @@ export default WeatherExtraInfo;
 </p>
 </details>
 
+### ES6: Template Strings
+
+<details><summary>Show ES6: Template Strings</summary>
+<p>
+ 
+- Go to https://codepen.io/
+- Create > New Pen > Settings > Javascript > Preprocessor - "Babel" > Quick-add - "React" > Quick-add - "React DOM"
+
+JS
+```javascript
+const number = 5;
+const anothertext = "new text"
+
+const text = `This is a literal ${number} - ${anothertext} `
+
+console.log(text);
+```
+
+</p>
+</details>
+
+
 </p>
 </details>
 
