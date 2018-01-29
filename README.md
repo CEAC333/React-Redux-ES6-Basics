@@ -365,7 +365,7 @@ const Location = ({city}) => ( // destructuring
 
 export default Location;
 ```
-
+#### Destructuring
 - Destructuring assignment - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 
 </p>
