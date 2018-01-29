@@ -94,9 +94,8 @@ class App extends Component {
 
 export default App;
 ```
-
-
-export default WeatherLocation;
+### Plugins & Extensions
+- VS Code > Extensions - "vscode-icons", "Reactjs code snippets" - Install
 
 #### Useful links
 - https://codepen.io/
