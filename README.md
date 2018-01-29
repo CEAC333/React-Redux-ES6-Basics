@@ -73,7 +73,7 @@ ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById('root'));
 </p>
 </details>
 
-## Start Coding!
+## 1.- Start Coding!
 
 <details><summary>Show Sections - Start Coding!</summary>
 <p>
