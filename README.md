@@ -406,7 +406,46 @@ const [one, , three] = array; // array destructuring
 console.log(one);
 console.log(three);
 ```
- 
+
+</p>
+</details>
+
+
+### 1.6.- WeatherApp - Parameters & Template String
+
+<details><summary>Show 1.6.- WeatherApp - Parameters & Template String</summary>
+<p>
+  
+/components/WeatherData.js
+```javascript
+import React                from 'react';
+import WeatherTemperature   from './WeatherTemperature'
+import WeatherExtraInfo     from './WeatherExtraInfo'
+
+const WeatherData = () => (
+<div>
+    <WeatherTemperature/>
+    <WeatherExtraInfo humidity={80} wind={'10m/s'}/>
+</div>
+)
+
+export default WeatherData;
+```
+
+/components/WeatherExtraInfo.js
+```javascript
+import React from 'react';
+
+const WeatherExtraInfo = ({ humidity, wind}) => (
+<div>
+    <span>{`${humidity} % - `}</span>
+    <span>{`${wind} wind`}</span>
+</div>
+);
+
+export default WeatherExtraInfo;
+```
+
 </p>
 </details>
 
