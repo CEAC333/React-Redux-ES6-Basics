@@ -75,7 +75,7 @@ ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById('root'));
 
 ## 1.- Start Coding!
 
-<details><summary>Show Sections - Start Coding!</summary>
+<details><summary>Show Sections - 1.- Start Coding!</summary>
 <p>
   
 ### First React App
