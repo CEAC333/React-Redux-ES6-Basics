@@ -117,6 +117,55 @@ ForecastItem Component
 </p>
 </details>
 
+### Plugins & Extensions
+
+<details><summary>Show Plugins & Extensions</summary>
+<p>
+  
+- VS Code > Extensions - "vscode-icons", "Reactjs code snippets" - Install
+
+</p>
+</details>
+
+### ES6 Arrow Functions
+
+<details><summary>Show ES6 Arrow Functions</summary>
+<p>
+  
+- Go to https://codepen.io/
+- Create > New Pen > Settings > Javascript > Preprocessor - "Babel" > Quick-add - "React" > Quick-add - "React DOM"
+
+JS
+```javascript
+function greeting(name){
+  return "Hello " + name;
+}
+
+console.log(greeting("Joe"))
+```
+
+JS - Arrow Function
+```javascript
+const greeting = (name) => {
+  return "Hello " + name + "! (with arrow function)";
+}
+
+console.log(greeting("Joe"))
+```
+
+JS - Arrow Function - 1 Line can be with () without "return"
+```javascript
+const greeting = (name) => ("Hello " + name + "! (with arrow function)")
+
+console.log(greeting("Joe"))
+```
+
+</p>
+</details>
+
+</p>
+</details>
+
 ### 1.1.- WeatherApp - Functional Component
 
 <details><summary>Show 1.1.- WeatherApp - Functional Component</summary>
@@ -182,9 +231,9 @@ export default WeatherData;
 
 /components/WeatherLocation.js
 ```javascript
-import React from 'react';
-import Location from './Location';
-import WeatherData from './WeatherData';
+import React        from 'react';
+import Location     from './Location';
+import WeatherData  from './WeatherData';
 
 const WeatherLocation = () => (
     <div>
@@ -214,55 +263,6 @@ class App extends Component {
 
 export default App;
 ```
-
-</p>
-</details>
-
-### Plugins & Extensions
-
-<details><summary>Show Plugins & Extensions</summary>
-<p>
-  
-- VS Code > Extensions - "vscode-icons", "Reactjs code snippets" - Install
-
-</p>
-</details>
-
-### ES6 Arrow Functions
-
-<details><summary>Show ES6 Arrow Functions</summary>
-<p>
-  
-- Go to https://codepen.io/
-- Create > New Pen > Settings > Javascript > Preprocessor - "Babel" > Quick-add - "React" > Quick-add - "React DOM"
-
-JS
-```javascript
-function greeting(name){
-  return "Hello " + name;
-}
-
-console.log(greeting("Joe"))
-```
-
-JS - Arrow Function
-```javascript
-const greeting = (name) => {
-  return "Hello " + name + "! (with arrow function)";
-}
-
-console.log(greeting("Joe"))
-```
-
-JS - Arrow Function - 1 Line can be with () without "return"
-```javascript
-const greeting = (name) => ("Hello " + name + "! (with arrow function)")
-
-console.log(greeting("Joe"))
-```
-
-</p>
-</details>
 
 </p>
 </details>
